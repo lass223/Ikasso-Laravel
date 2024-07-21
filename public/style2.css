@@ -1,0 +1,104 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Style du tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Style des boutons */
+.btn {
+    background-color: #2eca6a; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-edit {
+    background-color: #008CBA; /* Blue */
+}
+
+.btn-delete {
+    background-color: #f44336; /* Red */
+}
+.btn-delete:hover {
+    background-color: #b23f37; /* Red */
+}
+
+.btn-edit:hover {
+    background-color:#5ad3fb
+}
+.btn-logout {
+    background-color: #fcfcfc; /* Darker Green */
+    color : #000000;
+}
+.btn-logout:hover {
+    background-color:rgb(191, 191, 191)
+}
+.btn-add:hover {
+    background-color: #56df8b; /* Green */
+}
